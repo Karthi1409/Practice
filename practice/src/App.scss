@@ -1,0 +1,207 @@
+$dark-blue : #cbbbd8;
+
+// body {
+//     background-color: rgb(255, 255, 255);
+//     div {
+//         color: #010e0e;
+//         li {
+//             background-color: #9eb878;
+//         }
+//     }
+// }
+
+.wrapper {
+    width: 100%;
+    height: 98.3vh;
+    background-color: $dark-blue;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    size: 50px;
+}
+
+.num {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+.btnplus {
+    font-size: xx-large;
+    padding: 2px 10px;
+}
+
+.btnminus {
+    font-size: xx-large;
+    padding: 2px 14px;
+}
+
+.btnreset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cals {
+    border: 2px solid;
+    margin-left: 30%;
+    width: 30%;
+    height: 50%;
+}
+
+.numbpad {
+
+    height: 103px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.h2 {
+    border: 1px solid red;
+    padding: 25px 25px;
+    height: 100%;
+    width: 24%;
+    font-size: xx-large;
+    background-color: #91c937;
+}
+.display {
+    border: 2px solid;
+    height: 29%;
+}
+
+.form-header {
+    border: 2px solid rgb(54, 148, 255);
+    background-color: antiquewhite ;
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 55%;
+    height: 680px;
+    text-align: center;
+}
+
+.input {
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.label-radio {
+    margin-right: 40px;
+}
+
+.submitform {
+    margin-top: 30px;
+}
+
+.userform {
+    width: 100%;
+}
+
+.input-rad {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-check {
+    margin-left: 5px;
+}
+
+.textarea-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.usr-error{
+    margin-left: 200px;
+    color: red;
+}
+
+.usr-error-gender {
+    color: red;
+}
+
+.wrapper1 {
+    border: 2px solid;
+    height: 97.9vh;
+}
+
+.header1 {
+    border: 2px solid blue;
+    height:10%;
+}
+
+.body1 {
+    border: 2px solid red;
+    height: 89.4%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar1 {
+    border: 2px solid green;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sidebar1 a {
+    border: 1px solid black;
+    margin-top: 25px;
+    padding: 12px 9px;
+    font-size: larger;
+    // background-color: cornsilk;
+}
+
+.sidebar1 a:hover {
+    background-color: #c4c5c9;
+
+} 
+
+.content1 {
+    border: 2px solid rgb(146, 2, 146);
+    width: 80%;
+}
+
+.active {
+    background-color: #5d79e9;
+}
+
+.user-detail {
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.user-detail button {
+    margin-top: 10px;
+}
+
+.headercomp1 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    input {
+        margin-left: 20px;
+    }
+}
